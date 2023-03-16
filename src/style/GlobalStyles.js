@@ -11,8 +11,11 @@ export default createGlobalStyle`
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: sans-serif;
-  background: ${colors.primaryDarkColor};
+  background: black;
 }
 
 html, body, #root {
@@ -27,8 +30,47 @@ button{
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: 700;
+
+  position: relative;
+  border: 3px ridge red;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+button::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 3%;
+  width: 93%;
+  height: 40%;
+  background-color: black;
+  transition: 0.5s;
+  transform-origin: center;
+}
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 93%;
+  height: 40%;
+  background-color: black;
+  transition: 0.5s;
+}
+button:hover::before, button:hover::after {
+  transform: scale(0)
 }
 
+button:hover {
+  box-shadow: inset 0px 0px 25px red;
+}
+
+// links
 a {
   text-decoration: none;
   color: ${colors.primaryColor};
@@ -47,10 +89,11 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error {
 `;
 
 export const Container = styled.section`
-  max-width: 360px;
-  background: #fff;
-  margin: 30px auto;
-  padding: 30px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1600px;
+  background: black;
+  color: white;
 `;

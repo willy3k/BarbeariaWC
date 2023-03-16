@@ -3,11 +3,11 @@ import { Switch } from 'react-router-dom';
 
 import MyRoute from './MyRoute';
 import Home from '../pages/Home';
-import Sobre from '../pages/Components/Sobre';
-import Servicos from '../pages/Components/Servicos';
-import Galeria from '../pages/Components/Galeria';
-import Agendamento from '../pages/Components/Agendamento';
-import Localizacao from '../pages/Components/Localisacao';
+import Sobre from '../pages/Componentes/Sobre';
+import Servicos from '../pages/Componentes/Servicos';
+import Galeria from '../pages/Componentes/Galeria';
+import Agendamento from '../pages/Componentes/Agendamento';
+import Localizacao from '../pages/Componentes/Localisacao';
 
 export default function Routes() {
   return (
