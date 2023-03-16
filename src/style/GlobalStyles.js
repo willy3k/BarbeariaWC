@@ -93,7 +93,8 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1600px;
+  max-width: 1500px;
+  padding: 20px;
   background: black;
   color: white;
 `;

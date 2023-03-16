@@ -103,7 +103,7 @@ export const Homer = styled.section`
 
   // agenda
   .agenda {
-    margin: 20px;
+    margin: 20px 0;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -119,11 +119,16 @@ export const Homer = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 970px) {
+  @media (max-width: 900px) {
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    .logo {
+      width: 300px;
+      height: 300px;
+    }
     .section-agendar {
       width: 95%;
     }
