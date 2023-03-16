@@ -89,11 +89,13 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error {
 `;
 
 export const Container = styled.section`
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 100%;
   padding: 20px;
   background: black;
   color: white;

@@ -2,20 +2,16 @@ import styled from 'styled-components';
 // import { primaryColor } from '../../config/colors';
 
 export const Nav = styled.nav`
-  width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 
   header {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
   nav {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
   }
@@ -86,6 +82,7 @@ export const Nav = styled.nav`
       opacity: 1;
       position: relative;
     }
+
     .log2 {
       visibility: visible;
       opacity: 1;

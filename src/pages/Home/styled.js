@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Homer = styled.section`
-  /* padding: 30px; */
-  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -64,7 +62,7 @@ export const Homer = styled.section`
   // Section agendar
   .section-agendar {
     margin-top: 50px;
-    width: 1000px;
+    width: 900px;
     background: #07182e;
     position: relative;
     display: flex;
@@ -119,8 +117,8 @@ export const Homer = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 900px) {
-    width: 90%;
+  @media (max-width: 1040px) {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

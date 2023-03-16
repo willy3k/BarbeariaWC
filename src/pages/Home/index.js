@@ -16,32 +16,44 @@ export default function Home() {
           <div className="agenda">
             Cabelo
             <span>R$ 8.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
           <div className="agenda">
             Barba
             <span>R$ 5.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
           <div className="agenda">
             Sobranselha
             <span>R$ 5.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
           <div className="agenda">
             Cabelo-Barba
             <span>R$ 10.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
           <div className="agenda">
             Cabelo-Sobraselha
             <span>R$ 10.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
           <div className="agenda">
             Cabelo-Sobraselha-Barba
             <span>R$ 15.00</span>
-            <button type="submit">agenda</button>
+            <a href="https://wa.me/5581981237767">
+              <button type="submit">agenda</button>
+            </a>
           </div>
         </div>
       </Homer>
